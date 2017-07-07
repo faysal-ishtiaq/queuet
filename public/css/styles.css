@@ -1,0 +1,48 @@
+.m0{
+  margin: 0;
+}
+
+.p0{
+  padding: 0;
+}
+
+.pl0{
+  padding-left: 0;
+}
+
+.about-site, .website-list{
+    margin-bottom: 70px;
+}
+
+.website-list>div{
+  display: inline-block;
+}
+
+.about-site{
+  text-align: center;
+}
+
+.my-profiles li{
+  margin-top: 10px;
+}
+
+.more-to-come{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.more-to-come a{
+    font-size: 20px;
+}
+
+.tweet *{
+    margin-left: 5px;
+}
+
+.tweet img{
+    margin-left: 0px;
+}
+
+.tweet p{
+    margin-left: 65px;
+}
