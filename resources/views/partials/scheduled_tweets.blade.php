@@ -14,9 +14,22 @@
                         <span class="screen_name"><a href="{{'https://twitter.com/'.$profile->screen_name}}">@ {{$profile->screen_name}}</a></span>
                                                                 
                         <p>{{$tweet->text}}</p>
-                        <a href="{{url('/tweets')}}/{{$tweet->id}}" class="btn btn-primary pull-right"> <i class="fa fa-edit"></i> Edit</a>
+                            
+                        <span class="pull-left">Scheduled at: {{date('d M Y, h:i:s a', ($tweet->time+$profile->utc_offset))}}</span>
+                    
 
-                        <a href="{{url('/tweets')}}/{{$tweet->id}}/remove" class="btn btn-danger pull-right"> <i class="fa fa-trash"></i> Delete</a>    
+                        <ul class="list-inline pull-right clearfix">
+                            <li class="list-inline-item pull-right">
+                                <a href="{{url('/tweets')}}/{{$tweet->id}}" class="btn btn-primary pull-right"> <i class="fa fa-edit"></i> Edit</a>
+                            </li>
+                            <li class="list-inline-item pull-right">
+                                <a href="{{url('/tweets')}}/{{$tweet->id}}/remove" class="btn btn-danger pull-right"> <i class="fa fa-trash"></i> Delete</a>    
+                            </li>
+                        </ul>
+
+
+
+
                         
                     </div>
                 </div>

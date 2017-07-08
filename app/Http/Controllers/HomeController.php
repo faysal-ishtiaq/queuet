@@ -30,7 +30,7 @@ class HomeController extends Controller
         {
             $data['user'] = User::find(Auth::user()->id);
             $data['profile'] = $data['user']->profile;
-            $data['scheduledTweets'] = Tweet::where('posted', false)->get();
+            $data['scheduledTweets'] = Tweet::where('posted', false)->where('user_id', Auth::user()->id)->get();
 
             $request_token = [
                 'token'  => Session::get('oauth_request_token'),

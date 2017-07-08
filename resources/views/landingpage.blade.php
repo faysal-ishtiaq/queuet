@@ -7,22 +7,10 @@
         <div class="col-md-12">
             <div class="about-site">
                 <h2>About</h2>
-                <p>This website crawls through websites and collects posts based on selected category. And show them categorically.</p>
-                <a href="https://github.com/faysal-ishtiaq/tutscraper"><i class="fa fa-github"></i> View on Github</a>    
+                <p>Sign in with twitter. Write a tweet, set time or leave it (if you post it at once) and post. Your tweet will be posted at scheduled time.</p>
+                <a href="https://github.com/faysal-ishtiaq/queuet"><i class="fa fa-github"></i> View on Github</a>    
             </div>
-            <div class="website-list">
-                <div>
-                    <h4>List of websites:</h4>
-                    <ul>
-                        <li><a href="http://pyimagesearch.com">pyimagesearch.com</a></li>
-                    </ul>    
-                </div>
-                
-                <div class="more-to-come pull-right">
-                    <a href="scotch.io">scotch.io...</a>
-                    <button type="button" class="btn btn-success btn-lg">Coming soon</button>
-                </div>
-            </div>
+            
         </div>
     </div>
     <div class="row">
